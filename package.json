@@ -1,19 +1,26 @@
 {
   "name": "abes_feb_26_workshop",
   "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
+  "description": "Resume AI Analyzer - Express + Gemini",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/java2786/workshopt_ABES_feb_26.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "resume",
+    "ai",
+    "express",
+    "gemini",
+    "nodejs"
+  ],
+  "author": "Anshu Rana",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/java2786/workshopt_ABES_feb_26/issues"
   },
@@ -29,5 +36,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
